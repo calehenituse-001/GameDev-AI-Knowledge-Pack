@@ -23,7 +23,8 @@ Tugas, engine + versi (jika tersedia), target platform, batasan perangkat dan ca
 | FPS / lag / memory | guides/engineering/performance.md |
 | Save / migrasi data | guides/engineering/save-data.md |
 | Crash / bug | guides/engineering/debugging.md dan guides/engineering/testing.md |
-| Asset 2D/3D | guides/visuals/asset-pipeline.md |
+| Model 3D, glTF/GLB, Blender, mesh, UV, collision | guides/visuals/asset-pipeline.md dan guides/visuals/model-3d-production.md |
+| Sprite 2D, PNG transparan, atlas, animasi | guides/visuals/asset-pipeline.md dan guides/visuals/sprite-2d-production.md |
 | Particle / beam / ledakan | guides/visuals/vfx.md |
 | Porting / recompilation | guides/porting/porting-methods.md |
 | Desain arsitektur | guides/engineering/architecture.md |
