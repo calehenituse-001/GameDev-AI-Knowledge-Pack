@@ -16,3 +16,7 @@ Dua client dengan input berbeda; uji latency, packet loss, reconnect, pergantian
 Native dapat memakai ENet/UDP bila cocok. Browser tidak menyediakan raw UDP; evaluasi WebSocket dan WebRTC sesuai dukungan engine serta hosting.
 
 Jangan mengandalkan anti-cheat yang hanya berjalan pada client. Log audit tanpa membocorkan rahasia atau data pribadi.
+
+## Pendalaman masalah sinkronisasi
+
+Lihat [pemilihan arsitektur](networking-architecture-decisions.md), [snapshot & interpolation](network-snapshot-sync.md), [diagnosis desync](network-sync-debugging.md), dan [tes dua client](network-acceptance-tests.md). Untuk Godot, lihat [panduan Godot 4.7](../engines/godot-multiplayer-practical.md). Dua implementasi berbeda dapat memakai protokol serupa tetapi tidak harus berbagi rules world/physics yang sama.
