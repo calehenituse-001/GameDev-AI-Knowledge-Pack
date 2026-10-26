@@ -17,7 +17,8 @@ Tugas, engine + versi (jika tersedia), target platform, batasan perangkat dan ca
 | Minecraft Bedrock Add-On | guides/engines/minecraft-bedrock.md |
 | Android | guides/platforms/android.md |
 | Web / browser | guides/platforms/web.md |
-| Multiplayer / PvP | guides/engineering/multiplayer.md |
+| Multiplayer / PvP | guides/engineering/multiplayer.md + skills/network-synchronization/SKILL.md |
+| Remote player tidak bergerak/rotate/menempel, join/warp/reconnect | skills/network-synchronization/SKILL.md |
 | Movement / kamera / physics | guides/engineering/physics-camera.md |
 | FPS / lag / memory | guides/engineering/performance.md |
 | Save / migrasi data | guides/engineering/save-data.md |
