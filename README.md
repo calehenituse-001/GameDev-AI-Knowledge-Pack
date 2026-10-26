@@ -29,6 +29,16 @@ Repositori ini hanya menyimpan panduan, checklist, template laporan, dan Agent S
 - **Small changes:** perubahan seminimal mungkin, dengan pengujian dan rollback.
 - **Security and legality:** hindari secrets; hormati lisensi dan hak cipta.
 
+## Fokus baru: sinkronisasi multiplayer
+- [Agent Skill: Network Synchronization](skills/network-synchronization/SKILL.md) — pilih alur diagnosis.
+- [Pilihan arsitektur Godot vs custom WSS](guides/engineering/networking-architecture-decisions.md).
+- [Snapshot & reconciliation](guides/engineering/network-snapshot-sync.md).
+- [Debugging desync](guides/engineering/network-sync-debugging.md).
+- [Matriks pengujian dua client](guides/engineering/network-acceptance-tests.md).
+- [Godot 4.7 practical networking](guides/engines/godot-multiplayer-practical.md).
+
+Panduan ini universal dan tidak menyimpan implementasi game tertentu. Semua tes nyata harus dilakukan pada proyek dan server staging masing-masing.
+
 ## Status & sumber
 **Starter v0.1** — panduan awal, bukan mirror seluruh skill pihak ketiga. Salah satu sumber inspirasi adalah [Awesome GameDev Agent Skills](https://github.com/gamedev-skills/awesome-gamedev-agent-skills); lihat [catatan sumber](references/upstream-skills.md). Skill tidak otomatis terpasang di semua AI coding agent.
 
